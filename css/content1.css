@@ -1,9 +1,8 @@
 #content1 {
-    width: 1360px;
-    height: 500px;
-    border:1px solid red;
-    position: relative;
-    margin: 40px auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
 }
 #content1 .app-home {
     position: absolute;
