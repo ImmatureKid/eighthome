@@ -1,1 +1,111 @@
 /*footcss*/
+#footer{
+	position: absolute;
+	bottom:0;
+	left:0;
+    padding: 0 60px;
+    width: 100%;
+    min-width: 1200px;
+    height: 120px;
+    line-height: 120px;
+    border-top: 1px solid #e7e7e7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#footer .footer-wrap{
+    max-width: 1600px;
+    min-width: 1080px;
+    margin: 0 auto;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+#footer .footer-wrap .email-icon{
+	    display: inline-block;
+    font-size: 0;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/email@2x.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+}
+#footer .footer-wrap .email {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #222222;
+    vertical-align: middle;
+}
+#footer .footer-wrap .foot-right{
+	float: right;
+}
+#footer .footer-wrap .foot-right .copyright{
+display: inline-block;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+#footer .footer-wrap .foot-right .copyright .record-number{
+	    margin-left: 8px;
+}
+#footer .footer-wrap .foot-right .copyright .policies{
+margin-left: 8px;
+    color: #9a9a9a;
+    text-decoration: underline;
+}
+#footer .footer-wrap .foot-right  .footer-tap{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+#footer .footer-wrap .foot-right  .footer-tap .footer-tap-language{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #9a9a9a;
+    line-height: 40px;
+}
+ .footer-tap-text {
+    display: inline-block;
+    cursor: pointer;}
+   .foot-tap-img{
+    display: inline-block;
+    margin-left: 4px;
+    width: 12px;
+    height: 8px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: 50% 40%;
+    transform-origin: 50% 40%;
+    background: url(../images/language-arrow@2x.png) no-repeat center;
+    background-size: cover;}
+    .footer-tap-list{
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 82px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #e8e8e8;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    }
+    .footer-tap-item{
+    display: block;
+    height: 48px;
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 14px;
+    line-height: 48px;
+    color: #9a9a9a;
+    text-align: center;
+     }
+      .footer-tap:hover .footer-tap-list{
+            display: block;
+      }
+
+
