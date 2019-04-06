@@ -1,0 +1,9 @@
+#bg{
+position: absolute;
+    top: 123px;
+    width: 100%;
+    min-height: 535px;
+    background: url(../images/line@2x.png) no-repeat center;
+    background-size: cover;
+    z-index: 0;
+}
