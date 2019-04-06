@@ -98,3 +98,137 @@
     color: black;
     text-align: center;
 }
+/* 无缝滚动 */
+#content2 #page1 .about2 .boxj {
+    width: 992px;
+    height: 420px;
+    position: relative;
+    margin: 100px auto;
+    font-size: 14px;
+}
+
+#content2 #page1 .about2 .boxj .bgj {
+    width: 350px;
+    height: 40px;
+    /* border: 1px solid red; */
+    list-style: none;
+    /* position: relative; */
+}
+
+#content2 #page1 .about2 .bgj li {
+    position: absolute;
+    left: 50px;
+    opacity: 0;
+    top: 0;
+    transition: all 1s;
+    transform: translateX(50px);
+}
+
+#content2 #page1 .about2 .bgj li p.color1 {
+    color: #ff7422;
+}
+
+#content2 #page1 .about2 .bgj li p.color2 {
+    color: #9a9a9a;
+}
+
+#content2 #page1 .about2 .bgj .active5 {
+    z-index: 10;
+    opacity: 1;
+}
+
+#content2 #page1 .about2 .bgj .butj .active5 {
+    background-color: orange;
+    z-index: 10;
+    opacity: 1;
+}
+
+#content2 #page1 .about2 .butj {
+    list-style: none;
+    position: absolute;
+    z-index: 11;
+    top: 50px;
+}
+
+#content2 #page1 .about2 .butj li {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #b39bef;
+    float: left;
+    margin-right: 97px;
+    position: absolute;
+}
+
+#content2 #page1 .about2 .butj .li01 {
+    top: -9px;
+    left: 7px;
+}
+
+#content2 #page1 .about2 .butj .li02 {
+    left: 91px;
+    top: -12px;
+}
+
+#content2 #page1 .about2 .butj .li03 {
+    left: 191px;
+    top: -9px;
+}
+
+#content2 #page1 .about2 .butj .li04 {
+    left: 291px;
+    top: -9px;
+}
+
+#content2 #page1 .about2 .butj .li05 {
+    left: 391px;
+    top: -7px;
+}
+
+#content2 #page1 .about2 .butj .li06 {
+    left: 491px;
+    top: -5px;
+}
+
+#content2 #page1 .about2 .butj .li07 {
+    left: 591px;
+    top: -4px;
+}
+
+#content2 #page1 .about2 .bgj .li11 {
+    left: -52px;
+    top: 63px;
+}
+
+#content2 #page1 .about2 .bgj .li12 {
+    left: 18px;
+    top: 68px;
+}
+
+#content2 #page1 .about2 .bgj .li13 {
+    left: 118px;
+    top: 71px;
+}
+
+#content2 #page1 .about2 .bgj .li14 {
+    left: 218px;
+    top: 71px;
+}
+
+#content2 #page1 .about2 .bgj .li15 {
+    left: 318px;
+    top: 73px;
+}
+
+#content2 #page1 .about2 .bgj .li16 {
+    left: 418px;
+    top: 75px;
+}
+
+#content2 #page1 .about2 .bgj .li17 {
+    left: 518px;
+    top: 76px;
+}
