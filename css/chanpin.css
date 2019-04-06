@@ -3,7 +3,7 @@
     min-width: 1200px;
     width: 100%;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 100px auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 1;
@@ -113,14 +113,14 @@ img {
 
 
 
-.content3 {
+/*.content3 {
     position: relative;
     max-width: 1600px;
     min-width: 1200px;
     margin: 0 auto;
     padding-bottom: 80px;
     z-index: 1;
-}
+}*/
 .content3 .lab-wrap {
     padding: 40px 200px 0 200px;
 }
@@ -200,7 +200,7 @@ ol, ul {
 
 
 
-.content3 {
+/*.content3 {
     position: relative;
     padding: 40px 148px;
     min-width: 1200px;
@@ -209,7 +209,7 @@ ol, ul {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 1;
-}
+}*/
 .content3 .total-description {
     margin-left: 52px;
 }
