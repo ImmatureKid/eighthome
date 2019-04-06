@@ -7,3 +7,24 @@ position: absolute;
     background-size: cover;
     z-index: 0;
 }
+#bg .earth{
+  /*  display: none;*/
+    position: absolute;
+    right: -250px;
+    top: 24px;
+    top: 3vh;
+    bottom: 0;
+    margin: auto 0;
+    width: 500px;
+    height: 500px;
+    background: url(../images/earth.png) no-repeat center;
+    background-size: cover;
+    -webkit-transition: -webkit-transform 2s ease;
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+}
+#bg .animate{
+    -webkit-transform: translateX(-107vw) scale(0.7) rotate(180deg);
+    transform: translateX(-107vw) scale(0.7) rotate(180deg);
+}

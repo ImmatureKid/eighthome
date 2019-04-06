@@ -1,0 +1,287 @@
+.content3{
+    position: relative;
+    min-width: 1200px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.content3 .inner {
+    width: 100%;
+    padding: 40px 60px;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.content3 .inner .total{
+    padding: 60px 0 60px;
+    height: 330px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/ai-at-bytedance.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .inner .total .title {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.content3 .inner .title {
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    color: #222222;
+}
+.content3 .inner .total .detail {
+    width: 990px;
+    margin: 28px auto 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.content3 .inner .detail {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3F3F3F;
+}
+.content3 .inner .advantage {
+    padding: 120px 50px 100px;
+    margin: 0 auto;
+    height: 1%;
+    max-width: 1100px;
+    min-width: 1040px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.content3 .inner .advantage .advantage-point {
+    display: inline-block;
+    width: 460px;
+    vertical-align: top;
+}
+.content3 .inner .title {
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    color: #222222;
+}
+.content3 .inner .detail {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3F3F3F;
+}
+.content3 .inner .advantage .point-2 {
+    float: right;
+}
+.content3 .inner .description {
+    text-align: center;
+}
+.content3 .inner .title {
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    color: #222222;
+}
+.content3 .inner .description .description-detail {
+    margin-top: 28px;
+    height: 462px;
+    background-color: #F4F4F4;
+}
+.content3 .inner .description .description-detail .detail-img {
+    margin: 0 auto;
+    width: 937px;
+    height: 382px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.content3 .inner .patents {
+    padding: 100px 140px 160px;
+}
+.content3 .inner .title {
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    color: #222222;
+}
+
+
+
+
+.content3 {
+    position: relative;
+    max-width: 1600px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+.content3 .lab-wrap {
+    padding: 40px 200px 0 200px;
+}
+.content3 .lab-wrap .lab-title {
+    margin-bottom: 32px;
+    line-height: 38px;
+    font-size: 32px;
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    color: #ff7422;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content3 .lab-wrap .lab-desc {
+    width: 840px;
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #3F3F3F;
+}
+.content3 .lab-wrap .lab-desc {
+    width: 840px;
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #3F3F3F;
+}
+.content3 .lab-wrap .lab-desc {
+    width: 840px;
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #3F3F3F;
+}
+.content3 .lab-wrap .lab-projects {
+    margin-top: 28px;
+}
+.content3 .lab-wrap .lab-projects .items {
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #3F3F3F;
+}
+.content3 .lab-wrap .lab-projects .items .dot {
+    margin-right: 10px;
+}
+.content3 .lab-wrap .learn-more {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #222222;
+}
+.content3 .lab-wrap .learn-more a {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+}
+ol, ul {
+    list-style: none;
+}
+
+
+
+
+
+.content3 {
+    position: relative;
+    padding: 40px 148px;
+    min-width: 1200px;
+    max-width: 1600px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.content3 .total-description {
+    margin-left: 52px;
+}
+.content3 .total-description .title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #ff7422;
+}
+.content3 .detail {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #3F3F3F;
+}
+.content3 .map {
+    min-width: 1154px;
+    height: 564px;
+    text-align: center;
+    background: url(../images/map.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .products-list {
+    margin-left: 52px;
+}
+.content3 .title {
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222222;
+}
+.content3 .title .logo-img {
+    width: 28px;
+    height: 28px;
+    margin-right: 21px;
+}
+.content3 .title .name {
+    display: inline-block;
+}
+.content3 .logo-img.toutiao {
+    background: url(../images/toutiao@2x.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .title a {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+}
+.content3 .logo-img.xigua {
+    background: url(../images/xigua@2x.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .logo-img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.content3 .logo-img.huoshan {
+    background: url(../images/huoshan@2x.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .logo-img.tiktok {
+    background: url(../images/tiktok@3x.png) no-repeat center;
+    background-size: cover;
+}
+.content3 .products-list .products:not(:first-child) {
+    margin-top: 80px;
+}
+
+
+
+
